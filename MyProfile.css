@@ -1,0 +1,122 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	background-image: url(bmw_concept_roadster_3-2560x1440.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	filter:  saturation(250%) contrast(90%);
+	
+	
+}
+
+.header1{
+	
+	color: white;
+	position: absolute;
+	right: 250px;
+	top: 145px;
+	transition: 0.4s ease;
+	font-family: "Courier New" , Monospace,serif;
+	font-size: 45px;
+}
+.header1:hover {
+	cursor: pointer;
+	font-size: 38px;
+	color: #00bfff;
+	
+}
+.header2{
+	color: white;
+	transition: 0.4s ease;
+	position: absolute;
+	right: 289px;
+	top: 193px;
+	font-size: 38px;
+	font-family: "Courier New" , Monospace,serif;
+}
+.header2:hover{
+	cursor: pointer;
+	font-size: 25px;
+    color: #00bfff;
+}
+
+.name1{
+	position: absolute;
+	right: 163px;
+	top: 155px;
+    color: #00bfff;
+	transition: 0.4s ease;
+	font-size: 30px;
+}
+.name1:hover {
+	cursor: pointer;
+	color: white;
+	font-family: Arial;
+	font-size: 36px;
+}
+	
+	
+
+.name2{
+	color: #00bfff;
+	transition: 0.4s ease;
+	position: absolute;
+	top: 199px;
+	right: 192px;
+	font-size: 30px;
+}
+.name2:hover{
+	cursor: pointer;
+	color: white;
+	font-family: Arial;
+	font-size: 32px;
+	
+	
+}
+.container2{
+	
+	text-decoration: underline;
+	position: absolute;
+	left: 900px;
+	top: 280px;
+	font-size: 21px;
+	text-decoration: ;
+	color: #00bfff;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+.prop{
+	
+	color: #bfff00;
+	text-decoration: underline;
+}
+button{
+	position: absolute;
+	left: 1000px;
+	top: 480px;
+	font-size: 23px;
+	background-color: #00bfff;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	border: 1px #00bfff solid;
+	transition: 0.5s ease;
+}
+button:hover{
+	border: 1px black solid;
+	
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	position: absolute;
+	bottom: 0px;
+	font-style: italic;
+	
+}
